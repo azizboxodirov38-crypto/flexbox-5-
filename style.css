@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #b34040; /* фон как на макете */
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h1 .yellow {
+  color: yellow;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #6bc0ff;
+  font-weight: bold;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  
+}
+
+.card {
+  background: black;
+  border-radius: 10px;
+  max-width: 250px;
+  text-align: center;
+  padding-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card h2 {
+  margin: 15px 0 10px;
+  font-size: 1.3rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  padding: 0 10px;
+  line-height: 1.4;
+}
