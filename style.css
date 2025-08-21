@@ -1,66 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.h1 { 
+   margin: 38px 224px;
+    font-family: Arial, sans-serif;
+    
+    font-size: 64px;
+    color: white;
+    font-weight: normal;
+}
+.span {
+    font-weight: bold;
+    color: #F8FD0D;
+    font-weight: 700;
+}
 body {
-  font-family: Arial, sans-serif;
-  background: #b34040; /* фон как на макете */
-  color: #fff;
-  margin: 0;
-  padding: 0;
+    background-color: #CD5D5D;
 }
-
-header {
-  text-align: center;
-  padding: 20px;
+.ul {
+    display: flex;
+    list-style: none;
 }
-
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+li {
+    font-size: 15px;
+    font-weight: 60;
 }
-
-h1 .yellow {
-  color: yellow;
+#logo {
+    font-size: 40px;
+    font-weight: 400;
+} 
+.media {
+    margin-top: 23px;
+    margin-left: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1100px;
+    
 }
-
-nav {
-  margin-bottom: 30px;
-}
-
-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #6bc0ff;
-  font-weight: bold;
-}
-
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-  
-}
-
 .card {
-  background: black;
-  border-radius: 10px;
-  max-width: 250px;
-  text-align: center;
-  padding-bottom: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
-
-.card img {
-  width: 100%;
-  border-radius: 10px 10px 0 0;
+img {
+    width: 300px;
+    height: 140px;
 }
-
-.card h2 {
-  margin: 15px 0 10px;
-  font-size: 1.3rem;
-}
-
-.card p {
-  font-size: 0.9rem;
-  padding: 0 10px;
-  line-height: 1.4;
+.media2 {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1100px;
 }
